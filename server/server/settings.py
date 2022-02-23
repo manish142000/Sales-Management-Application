@@ -32,12 +32,16 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'authentication',
+    'users',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    
 ]
 
 MIDDLEWARE = [
@@ -130,4 +134,24 @@ STATICFILES_DIRS = [
 ]
 
 
+#models
+AUTH_USER_MODEL = 'users.user'
 
+AUTHENTICATION_BACKENDS = ['authentication.backends.EmailBackend']
+
+REST_FRAMEWORK = {
+        'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend'
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+    'rest_framework.authentication.SessionAuthentication',
+    ),
+}
+
+LOGIN_REDIRECT_URL = 'dashboard'

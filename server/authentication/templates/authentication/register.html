@@ -1,4 +1,46 @@
-{% extends 'base.html' %} 
-{% block content %} 
-    
-{% endblock content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'authentication/css/authentication.css' %}">
+<title>Document</title>
+<br>
+<div id="cuvette">
+    </div>
+    </head>
+<body >
+<div id="container">
+<div id="container-img" style="margin-top: 15rem;">
+              
+</div>
+<div id="container-text">
+Welcome to your Dashboard
+</div>
+<div id="container-text-2">
+This is the homepage of lead 
+management system, register now 
+</div>
+<div id = "amico" >
+    <img  src="{% static 'authentication/images/amico.png' %}" alt="image">
+</div>
+</div>
+<div id="signup-space">
+<p id="login-text">Register a new account</p>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <input type = "text" class="first-name" placeholder="Enter First Name">
+    <input type="text" class="last-name" placeholder="Enter Last Name"> 
+    <input type="text" class="email-id" placeholder="Enter email address">
+    <input type="text" class="phone-no" placeholder="Enter phone number">
+    <input type = "password" class="signup-password" placeholder="password">
+    <input type = "password" class="confirm-password" placeholder="Confirm password">
+    <button type="submit" class="btn">Register Now</button>
+    <p class="signup-already">Already have an account? <a href="{% url 'dashboard' %}">Login</a></p>
+</div>
+</body>
+</html>
