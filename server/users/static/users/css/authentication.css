@@ -1,0 +1,443 @@
+#container {
+  position: fixed;
+  width: 50%;
+  height: 810px;
+  left: 0px;
+  top: 88px;
+  background: rgba(247, 248, 250, 0.5);
+}
+
+#login-space{
+height: 500px;
+width: 498px;
+margin-left: 1136px;
+margin-top: 226px;
+border-radius: 10px;
+position: absolute;
+border: 1px solid #DFE0E0;
+box-sizing: border-box;
+border-radius: 10px;
+}
+#login-text{
+height: 26px;
+width: 80%;
+margin-left: 25px;
+margin-top: 30px;
+font-family: 'DM Sans';
+font-size: 20px;
+font-weight: bold;
+line-height: 26px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.username{
+  height: 44px;
+  width: 440px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 11px 62px 12px 16px;
+  position: absolute;
+  border: 1px solid #EBF0F5;
+  box-sizing: border-box;
+}
+.password{
+  height: 44px;
+  width: 440px;
+  margin-left: 25px;
+  margin-top: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 11px 62px 12px 16px;
+  position: absolute;
+  border: 1px solid #EBF0F5;
+  box-sizing: border-box;
+}
+.login{
+  position: static;
+  width: 104px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+position: absolute;
+width: 440px;
+height: 44px;
+margin-left: 25px;
+margin-top: 140px;
+
+background: #142683;
+border-radius: 5px;
+}
+
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}    
+body {
+   min-height: 100%;
+}
+#container-text{
+height: 124px;
+width: 381px;
+margin-left: 119px;
+margin-top: 100px;
+font-family: 'DM Sans';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: -0.02em;
+text-align: left;
+position:absolute;
+}
+#container-text-2{
+height: 135px;
+width: 500px;
+margin-left: 119px;
+margin-top: 250px;
+font-family: DM Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: -0.02em;
+text-align: left;
+position: absolute;
+color: #566474;
+}
+#cuvette{
+  margin-left:1rem;
+}
+#container-img {
+position:absolute;
+  margin-top: 277px;
+  margin-left: 119px;
+}
+
+#amico{
+  position: absolute;
+  bottom: 2%;
+  left: 7%;
+}
+
+
+#Signup-link{
+  padding-left: 7%;
+  position: absolute;
+  bottom: 0%;
+}
+
+#signup{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  height: 700px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4%;
+  background-color: #EBF0F5;
+  border: 1px solid #121414;
+
+}
+
+.test{
+  height: 40px;
+  width: 40px;
+  background-color: #121414;
+}
+
+.signup-username{
+  position: absolute;
+  height: 44px;
+  width: 30%;
+  top: 25%;
+  left: 34%;
+  justify-content: center;
+}
+
+.signup-email{
+  position: absolute;
+  height: 44px;
+  width: 30%;
+  top: 35%;
+  left: 34%;
+  justify-content: center; 
+}
+
+
+.signup-password{
+  position: absolute;
+  height: 44px;
+  width: 30%;
+  top: 45%;
+  left: 34%;
+  justify-content: center; 
+}
+
+.signup-confirmpassword{
+  position: absolute;
+  height: 44px;
+  width: 30%;
+  top: 55%;
+  left: 34%;
+  justify-content: center; 
+}
+
+.signup-button{
+  position: absolute;
+  left: 34%;
+  top: 65%;
+}
+
+
+#signup-space{
+  position: absolute;
+  height: 655px;
+  width: 498px;
+  left: 57.99%;
+  right: 7.43%;
+  top: 18.44%;
+  bottom: 8.78%;
+  
+  border: 1px solid #DFE0E0;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+
+.first-name{
+  position: absolute;
+width: 35%;
+height: 4%;
+left: 4%;
+top: 15%;
+
+font-family:'SF Pro Display';
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #080808;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border: 1px solid #DFE0E0;
+border-radius: 5px;
+
+padding: 2%;
+}
+
+.last-name{
+  position: absolute;
+width: 35%;
+height: 4%;
+left: 49%;
+top: 15%;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #080808;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border: 1px solid #DFE0E0;
+border-radius: 5px;
+
+padding: 2%;
+}
+
+.email-id{
+  position: absolute;
+width: 80%;
+height: 4%;
+left: 4%;
+top: 27%;
+
+font-family:'SF Pro Display';
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #080808;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border: 1px solid #DFE0E0;
+border-radius: 5px;
+padding: 2%;
+}
+
+.phone-no{
+  position: absolute;
+width: 80%;
+height: 4%;
+left: 4%;
+top: 39%;
+
+font-family:'SF Pro Display';
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #080808;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border: 1px solid #DFE0E0;
+border-radius: 5px;
+
+padding: 2%;
+}
+
+.signup-password{
+  position: absolute;
+width: 80%;
+height: 4%;
+left: 4%;
+top: 51%;
+
+font-family:'SF Pro Display';
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #080808;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border: 1px solid #DFE0E0;
+border-radius: 5px; 
+
+padding: 2%;
+}
+
+.confirm-password{
+  position: absolute;
+width: 80%;
+height: 4%;
+left: 4%;
+top: 63%;
+
+font-family:'SF Pro Display';
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #080808;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+border: 1px solid #DFE0E0;
+border-radius: 5px; 
+
+padding: 2%;
+}
+
+.btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+height: 44px;
+left: 4%;
+right: 10.83%;
+top: 78%;
+width: 85%;
+
+font-family:'SF Pro Display';
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 19px;
+
+background: #142683;
+border-radius: 5px;
+color: white;
+}
+
+.signup-already{
+  position: absolute;
+  left: 4.5%;
+  top: 90%;
+  align-content: center;
+}
